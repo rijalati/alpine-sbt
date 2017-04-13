@@ -4,7 +4,7 @@ MAINTAINER <ritchie@selectstar.com>
 
 RUN apk --no-cache --update add bash \
 && cd /opt \
-&& curl --verbose -Ls http://dl.bintray.com/sbt/native-packages/sbt/0.13.15/sbt-0.13.15.tgz \
+&& curl -Ls http://dl.bintray.com/sbt/native-packages/sbt/0.13.15/sbt-0.13.15.tgz \
 | tar --strip-components=1 -xvf -
 
 ENTRYPOINT ["/opt/bin/sbt", "help"]
