@@ -1,4 +1,4 @@
-FROM rijalati/alpine-zulu-jdk8:latest
+FROM rijalati/alpine-zulu-jdk8:latest-mini
 MAINTAINER <ritchie@selectstar.com>
 
 
